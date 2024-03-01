@@ -1,0 +1,119 @@
+body {
+  background-color: rgb(34, 34, 34);
+}
+.display {
+  color: white;
+}
+#main {
+  width: 100%;
+  height: auto;
+}
+.secMain {
+  display: flex;
+  background-color: black;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 1rem;
+  padding: 0 1rem;
+}
+.num {
+  color: aliceblue;
+  font-size: 5rem;
+  font-weight: 900;
+}
+.sid {
+  color: blue;
+  background-color: black;
+}
+
+.thirdMain {
+  display: flex;
+  justify-content: center; /* Centers the div horizontally */
+  align-items: center; /* Centers the div vertically */
+  height: 4rem;
+}
+
+.buttonSet {
+  display: block;
+}
+
+button {
+  margin: 5px;
+  width: 6rem;
+  height: 4rem;
+  background: linear-gradient(to bottom right, white, rgb(82, 82, 82));
+  border: none;
+  transition: 0.7s;
+  font-size: 1.5em;
+  font-weight: 600;
+  border-radius: 1rem;
+}
+
+button:hover {
+  transform: scale(0.9);
+  background: linear-gradient(to bottom right, white, rgb(82, 82, 82));
+  border: none;
+}
+
+.secButtonSet {
+  align-items: center;
+}
+
+.panDis {
+  color: aliceblue;
+}
+
+.extra {
+  display: flex;
+  margin-top: 2rem;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: column;
+  background-color: black;
+}
+
+.put input {
+  width: 5rem;
+  border: none;
+  font-size: 3rem;
+  height: 2rem;
+  margin: 15px auto;
+  background-color: aliceblue;
+  border-radius: 5px;
+}
+
+label {
+  user-select: none;
+  color: aliceblue;
+  font-size: 2rem;
+}
+
+.count {
+  color: aliceblue;
+}
+.dExtra {
+  background-color: blue;
+  display: block;
+}
+
+.eDisplay {
+  display: block;
+  color: aliceblue;
+}
+
+.sumit {
+  width: 8rem;
+  height: auto;
+  background-color: linear-gradient(to bottom right, white, rgb(82, 82, 82));
+  font-size: 2rem;
+  color: aliceblue;
+}
+.eDisplay {
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-size: 5rem;
+  font-weight: 800;
+  user-select: none;
+}
